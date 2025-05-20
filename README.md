@@ -19,7 +19,7 @@ cp .env.example .env
 php artisan key:generate
 php artisan migrate
 php artisan db:seed
-composer require doctrine/dbal  # カラム名変更などに使用
+composer require doctrine/dbal  # エラー発生時のみ　カラム名変更などに使用
 ```
 
 ### 公開ストレージリンクの作成（画像表示に必要）
